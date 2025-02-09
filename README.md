@@ -1,5 +1,5 @@
 # setup svg Face Mask online while it detecting. face tracking, mediapipe, js and svg with Neo Brutalism Design
-## Demo [pizda.online](https://pizda.online)
+## online demo on [pizda.online](https://pizda.online)
 
 This document contains two versions of an HTML page that implements a face mask effect using MediaPipe Face Mesh and a neo‑brutalism design style. The page allows users to choose the image source – either live camera video (default) or an uploaded photo. Facial landmarks are detected with MediaPipe Face Mesh, then a mask built from polygons (obtained via clustering and computing a convex hull) “sticks” to the face. When the freeze mode is enabled, the polygon shapes are computed once and then only transformed on each update to remain attached to the face.
 
